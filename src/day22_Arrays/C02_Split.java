@@ -9,7 +9,7 @@ public class C02_Split {
 		//"JAVA ÖGRENMEK COK GÜZEL"
 		//CUMLESİNİNİN KELİMELİRİNİ TERS SIRADA YAZDIRIN....
 		
-		String cumle="Java ogrenmek cok COKCOK COK güzel";
+		String cumle="Java ogrenmek cok  cok cokCOKCOK COK güzel";
 		
 		String kelimeler[]=cumle.split(" ");
 		
