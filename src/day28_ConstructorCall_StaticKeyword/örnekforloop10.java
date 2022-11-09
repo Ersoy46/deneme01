@@ -1,0 +1,37 @@
+package day28_ConstructorCall_StaticKeyword;
+
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class örnekforloop10 {
+
+	public static void main(String[] args) {
+
+		Scanner scan=new Scanner(System.in);
+		
+		System.out.println("lutfen iki tam sayi giriniz");
+		
+		int sayi1=scan.nextInt();
+		int sayi2=scan.nextInt();
+		
+		// kullanicidan 2 tam sayi isteyin
+				// ilk sayidan baslayarak , ikinci sayiya kadar ucer, ucer yazdirin
+	
+	if (sayi1>sayi2) {
+		for (int i = sayi1; i >= sayi2; i-=3) {
+			System.out.println(i + " ");
+		}
+	}
+		else if (sayi1<sayi2) {
+		for (int i = sayi1; i <=sayi2; i+=3) {
+			System.out.println(i + " ");
+		}	
+		}else {
+			System.out.println("girilen sayilar esit");
+	}
+	
+	
+	
+	
+	}
+}
